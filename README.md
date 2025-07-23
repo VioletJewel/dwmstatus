@@ -4,6 +4,10 @@
 An extremely lightweight and simple C statusbar for dwm that includes support
 for sysfs, locales, battery support and shows the date and time every minute.
 
+```
+1 2 3 4 5 6 7 8 9 []=                    100.00% (Full)  Wed 23 Jul 2025  11:06
+```
+
 ## Build and Install
 
 ```bash
@@ -12,9 +16,9 @@ $ make installlocaleslocal
 
 ## recommended installation (local only):
 # copies ./dwmstatus to ~/.local/bin
-$ make localinstall
+$ make && make localinstall
 # add 
-$ echo "export PATH=\"\$PATH\":\"\" >> ~/.zprofile # or ~/.profile
+$ echo "export PATH=\"\$PATH\":\"\$HOME\"/.local/bin" >> ~/.zprofile # or ~/.profile
 
 # other installation examples:
 $ LINSTALLDIR=~/scripts make localinstall          # copy to ~/scripts
