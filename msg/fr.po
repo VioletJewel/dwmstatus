@@ -1,0 +1,33 @@
+# French translations for 0.1 package.
+# Copyright (C) 2024
+# This file is distributed under the same license as the dwmstatus package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 00:18-0400\n"
+"PO-Revision-Date: 2024-10-04 00:18-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr_FT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Charging"
+msgstr "Chargement"
+
+msgid "Discharging"
+msgstr "Déchargement"
+
+msgid "Not charging"
+msgstr "Ne charge pas"
+
+msgid "Full"
+msgstr "Pleine"
+
+msgid "Unknown"
+msgstr "Inconnu"
